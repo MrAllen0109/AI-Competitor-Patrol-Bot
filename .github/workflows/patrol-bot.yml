@@ -2,8 +2,7 @@ name: 🚀 AI 竞品舆情云端巡逻机器人
 
 on:
   schedule:
-   # 极限测试模式：每 5 分钟触发一次
-    - cron: '*/5 * * * *'
+    - cron: '0 */2 * * *'
   # 支持你在网页上手动点击按钮立即运行
   workflow_dispatch: 
 
